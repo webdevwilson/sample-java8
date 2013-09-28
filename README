@@ -1,0 +1,4 @@
+-- Sample Java 8 SDK Features --
+
+This is a NetBeans project that requires NetBeans 7.4 RC1. I typically wouldn't do this
+but AFAICT Maven Java 8 support is not ready yet. You can also build this project with ant.
