@@ -4,6 +4,10 @@ public interface Grade {
 
   int getScore();
   
+  default <T> T calculate(final CalculateFunction<T> func) {
+    return func.calculate(getScore());
+  }
+  
   default char getLetterGrade() {
     
     int score = getScore();
